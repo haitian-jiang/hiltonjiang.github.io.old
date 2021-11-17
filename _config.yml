@@ -7,7 +7,7 @@ permalink           : /:title/
 description         : "A hacker-style note-keeping website template."
 markdown            : kramdown
 statement           : "Designed by DeerRIDER, All Rights Reserved"
-bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
+bgtext              : "我爱你冯亦童ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
 # You can specify the order shown in Archive window. 
@@ -84,9 +84,9 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
+email               : "jht2001120@outlook.com"
 linkedin            : 
-github              : "just-test" 
+github              : "https://github.com/hiltonjiang" 
 gitlab              : 
 website             : "https://github.com/akiritsu/pRoJEct-VeXEd"
 twitter             : "just-test"
