@@ -38,9 +38,9 @@ $$
 arr = [10, 7, 8, 9, 1, 5]
 n = len(arr)
 quickSort(arr,0,n-1)
-print ("Sorted array is:")
+print("Sorted array is:")
 for i in range(n):
-    print ("%d" %arr[i]),
+    print("%d" %arr[i]),
 ```
 
 - Decrypt and encrypt text (access token: 233):
@@ -173,9 +173,9 @@ def quickSort(arr,low,high):
 arr = [10, 7, 8, 9, 1, 5]
 n = len(arr)
 quickSort(arr,0,n-1)
-print ("Sorted array is:")
+print("Sorted array is:")
 for i in range(n):
-    print ("%d" %arr[i]),
+    print("%d", %arr[i]),
 
 # This code is contributed by Mohit Kumra
 ```
