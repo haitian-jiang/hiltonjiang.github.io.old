@@ -11,6 +11,6 @@ $font-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif, "Source Han Serif CN Medium",
   "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei",
   "WenQuanYi Micro Hei" !default;
-$monospace: "Inconsolata", Monaco, Consolas, "Lucida Console", monospace !default;
-$font-monospace: "Inconsolata", "Fira Code", "Source Code Pro", "Fira Code Online", Monaco,
-  Consolas, "Lucida Console", monospace !default;  
+$monospace: Inconsolata, Monaco, Consolas, "Lucida Console", monospace !default;
+$font-monospace: Inconsolata, Consolas, "Source Code Pro", "Fira Code", "Fira Code Online", Monaco,
+  "Lucida Console", monospace !default;  
