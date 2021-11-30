@@ -35,9 +35,7 @@ $$
 - Supports code highlight with `Rouge`.
 
 ```c
-/* 
- * initMatrix - Initialize the given matrix 
- */
+
 void initMatrix(int M, int N, int A[N][M], int B[M][N])
 {
     int i, j;
