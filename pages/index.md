@@ -34,13 +34,22 @@ $$
 
 - Supports code highlight with `Rouge`.
 
-```python
-arr = [10, 7, 8, 9, 1, 5]
-n = len(arr)
-quickSort(arr,0,n-1)
-print("Sorted array is:")
-for i in range(n):
-    print("%d" %arr[i]),
+```c
+/* 
+ * initMatrix - Initialize the given matrix 
+ */
+void initMatrix(int M, int N, int A[N][M], int B[M][N])
+{
+    int i, j;
+    srand(time(NULL));
+    for (i = 0; i < N; i++){
+        for (j = 0; j < M; j++){
+            // A[i][j] = i+j;  /* The matrix created this way is symmetric */
+            A[i][j]=rand();
+            B[j][i]=rand();
+        }
+    }
+}
 ```
 
 - Decrypt and encrypt text (access token: 233):
