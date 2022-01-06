@@ -31,13 +31,13 @@
   border-top: none;
   article {
     margin: 0;
-    padding: 10px 19px 19px 19px;
+    padding: 0px 19px 0px 19px;
     text-align: left !important;
     min-height: 88%; 
   }
-  td {
-    border: $thin-border;  
-  }
+  // td {  // remove it for the home page
+  //   border: $thin-border;  
+  // }
   .encrypted {
     color: rgba($color-warning, 0.9);
     word-break: break-all;
