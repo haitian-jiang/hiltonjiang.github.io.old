@@ -1,13 +1,13 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                 : "https://akiritsu.github.io"
-baseurl             : "/pRoJEct-VeXEd"
+title               : 🏠
+owner               : "HtJiang"
+url                 : "https://hiltonjiang.github.io"
+baseurl             : ""
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : "Hilton Jiang's personal website."
 markdown            : kramdown
 highlighter         : rouge
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+# statement           : ""
 bgtext              : "我爱你冯亦童ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -60,7 +60,7 @@ collections:
     output          : true
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+# disqus_username     : akiritsu
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -77,7 +77,7 @@ defaults:
       encrypted_text      : true       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "HtJiang" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -86,15 +86,15 @@ defaults:
 
 # 5. Social Media Accounts
 email               : "jht2001120@outlook.com"
-linkedin            : 
-github              : "https://github.com/hiltonjiang" 
+linkedin            : "htjiang"
+github              : "hiltonjiang" 
 gitlab              : 
 website             : "https://hiltonjiang.github.io"
-twitter             : "just-test"
-facebook            : "just-test"
+twitter             : 
+facebook            : 
 instagram           : 
-youtube             : "just-test"
-steam               : "just-test"
+youtube             : 
+steam               : 
 weibo               :
       
 # 6. Where things are
