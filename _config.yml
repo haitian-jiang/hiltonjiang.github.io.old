@@ -15,21 +15,21 @@ bgtext              : "我爱你冯亦童ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrst
 # Keep it null if you want to show items in alphabetic order.
 collection_order    : 
   [
+    "go",
     "samples",
     "posts",
-    "math",
     "portfolio",
   ]
 collections:
+  go:
+    output          : true
+    permalink       : /:collection/:title/
+    sort_by         : date
+    alias           : "Go PL"
   samples:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  math:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "Mathematics"
   portfolio:
     output          : true
     permalink       : /:collection/:title/
@@ -58,7 +58,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "HtJiang" # author name by default
+      author              : "Hilton Jiang" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
