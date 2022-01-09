@@ -6,6 +6,14 @@ date: 2022-1-8
 
 
 
+### 运算
+
+```go
+// %取余，与被取数符号相同；a/b=trunc(a÷b)：与C相同，与Python不同
+```
+
+
+
 ### 命令行参数
 
 `os.Args`：数组切片。 例如`os.Args[1:]`表示所有参数。
@@ -46,11 +54,15 @@ new() new函数创建匿名变量，返回其地址，一般每次返回的是�
 
 
 
-### 字符串
+### 字符串(不可变)
 
-字符串可以直接相加，或+=，地址不变
+字符串可以直接相加，或+=
 
 将字符串转为`[]byte`切片时会拷贝字符串数据的副本
+
+字符串可以包括ascii 0
+
+len返回字节数，切片也基于字节
 
 ```go
 strings.Join(SliceOfString, delim)  // Python: delim.join(SliceOfString)
@@ -59,7 +71,7 @@ strings.Split(String, delimiter)    // Python: String.split(delimiter)
 ```
 
 ```go
-function (v Type) String() string { return fmt.Sprintf("sth", v) }
+func (v Type) String() string { return fmt.Sprintf("sth", v) }  // Python: __str__
 ```
 
 
