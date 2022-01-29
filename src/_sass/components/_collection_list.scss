@@ -185,9 +185,9 @@
   // border: $secondary-border;
 
   .collection_name_list {
-    top: 28px + $collection-list-header-size;
+    top: 28px;// + $collection-list-header-size;
     bottom: 28px;
-    width: 25%;
+    width: 35%;
     height: auto;
     position: absolute;
     margin: 0;

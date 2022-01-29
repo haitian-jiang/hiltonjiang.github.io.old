@@ -62,13 +62,32 @@ new() new函数创建匿名变量，返回其地址，一般每次返回的是�
 
 字符串可以包括ascii 0
 
-len返回字节数，切片也基于字节
+切片基于字节，`len`返回字节数，`utf8.RuneCountInString(s)`返回字符数
+
+`r, size = utf.DecodeRuneInString(str)`，但使用`range`时隐式解码了
 
 ```go
+strings.ToUpper(s), ToLower         // Python: s.upper(), s.lower()
+// 以下函数bytes库也有
+strings.HasPrefix(s, prefix)        // Python: s.startswith(prefix)
+strings.HasSuffix(s, suffix)        // Python: s.endswith(prefix)
+strings.Contains(s, substr)         // Python: substr in s
+strings.LastIndex(s, sub)  // 失败则-1 Python: s.rfind(sub)
+strings.Count(s, sep)               // Python: s.count(sep)
 strings.Join(SliceOfString, delim)  // Python: delim.join(SliceOfString)
 strings.Split(String, delimiter)    // Python: String.split(delimiter)
-
 ```
+
+```go
+strconv.ItoA()  // 用fmt.Sprintf()代替
+strconv.AtoI()
+strconv.FormatInt/FormatUint(n, base)
+strconv.ParseInt(str, base, bits)
+```
+
+
+
+
 
 ```go
 func (v Type) String() string { return fmt.Sprintf("sth", v) }  // Python: __str__
