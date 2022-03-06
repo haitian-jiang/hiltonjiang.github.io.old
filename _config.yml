@@ -26,6 +26,10 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Go PL"
+  GNN:
+    output          : true
+    permalink       : /:collection/:title/
+    sort_by         : date
   samples:
     output          : true
     permalink       : /:collection/:title/
