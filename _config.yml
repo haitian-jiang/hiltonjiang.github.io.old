@@ -16,6 +16,7 @@ bgtext              : "我爱你冯亦童ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrst
 collection_order    : 
   [
     "go",
+    "GNN",
     "samples",
     "posts",
     "portfolio",
