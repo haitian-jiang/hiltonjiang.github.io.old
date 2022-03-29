@@ -51,3 +51,12 @@ data.test_mask = index2mask(split_idx['test'], data.num_nodes)
 
 
 
+
+
+### PyGAS
+
+`ScalableGNN`基类中包含`History`，初始化`ScalableGNN`时的参数`device`指定的是`History`的设备
+
+`ScalableGNN`中的`pool`位于模型相同的设备上（GPU）
+
+PyGAS需要使用`SparseTensor`作为邻接矩阵类型，是因为metis后重排边的顺序只实现了稀疏矩阵版本。
