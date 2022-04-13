@@ -68,7 +68,7 @@ date: 2022-3-28
 
 ​		圣迭戈城的交通由MTS(Metropolitan Transit System)公司负责，涵盖公交车和轻轨。乘坐MTS公司的交通工具时可以使用Pronto应用程序出示二维码。通过UCSD学生邮箱注册Pronto可以免费乘车，所以出行无忧。需要注意的是有些公交线路周末休息，需要提前查好路线规划。可以试用Google Map，基本足够各种导航的需求。美国的公交车并不是每站都停，在到达自己想下车的站点之前需要拉一下窗边的黄线，这样司机就可以知道下一站要停。
 
-<img src="https://play-lh.googleusercontent.com/qbqsZzVWdBD9v0QMCGzWGKWnaTsN2lZYwIgRmvSC9dLGBR2u0oPqdZ_pM4ZUMdz3vA=w1872-h1005-rw" alt="Screenshot Image" style="zoom:50%;" />
+<img src="/Users/jht/Documents/hiltonjiang.github.io/collections/_posts/pronto.jpg" alt="Screenshot Image" style="zoom:20%;" />
 
 ​		UCSD校园附近的La Jolla Beach，La Jolla Cove，南面的老城和市中心的Balboa Park都是游玩的好去处。Convoy Street距离学校不远，那里有不少好吃的中餐馆子。
 
@@ -78,9 +78,9 @@ date: 2022-3-28
 
 ​		根据官方说法，学校不保证为UCEAP项目的学生提供住宿，但是大多数学生基本上可以申请到学校的i-house(International house)校内宿舍。i-house宿舍的合同都是一年一签，但是可以在学期中（比如秋季学期是11月）申请结束合同。宿舍和餐饮计划(dining plan)是绑定的，也就是说i-house的住宿费包含了饮食费。饮食费有三种档次可选，分别对应了每周5顿、每周10顿和每周15顿。交住宿费可以选择每月交或每学期交或每年交，如果是交流一学期则只需要考虑前两种。i-house的宿舍在每个人的房间之外配备了公共的厨房（包括炉子、烤箱、冰箱）、卫生间、浴室和客厅。房间的户型包含双人间和单人间，双人间的费用会比单人间便宜些，单人间每月住宿费在$1500左右。下图是i-house楼下、寝室内和公共的厅。
 
-<img src="/Users/jht/Documents/hiltonjiang.github.io/collections/_posts/cta-living.jpg" alt="ERC campus at UC San Diego - home of I-House student residences" style="zoom:50%;" /> <img src="https://ihouse.ucsd.edu/_images/living/ug-eap-slideshow/10-bedroom.png" alt="International House residential apartments - bedroom" style="zoom:50%;" />
+<img src="/Users/jht/Documents/hiltonjiang.github.io/collections/_posts/cta-living.jpg" alt="ERC campus at UC San Diego - home of I-House student residences" style="zoom:50%;" /> <img src="/Users/jht/Documents/hiltonjiang.github.io/collections/_posts/10-bedroom.png" alt="International House residential apartments - bedroom" style="zoom:50%;" />
 
-<img src="https://ihouse.ucsd.edu/_images/living/ug-eap-slideshow/18-townhouse-living-room2.png" alt="International House residential apartments - Townhouse / living room" style="zoom:50%;" />
+<img src="/Users/jht/Documents/hiltonjiang.github.io/collections/_posts/18-townhouse-living-room2.png" alt="International House residential apartments - Townhouse / living room" style="zoom:50%;" />
 
 ​		学校有7个食堂，介绍一下我较常吃的几个。距离i-house最近的是Café Ventanas和Oceanview。如其名，在Oceanview餐厅可以看到太平洋。Oceanview餐厅主要提供了现烤的披萨；Café Ventanas中有墨西哥卷饼和一些饭、面、汉堡等。比Café Ventanas稍远一点的是the Bistro，这家餐厅提供东亚菜（日料居多，寿司、乌冬面等）。第六学院的餐厅由若干个档口组成，包括日式拉面、夏威夷poke bowl（类似于日料）、墨西哥卷饼等。这个餐厅毗邻GA AUD讲座厅，很适合下课后来吃。另一个靠近教学区域的食堂是Pines，那里也提供饭、面、poke bowl、炸鸡汉堡等。食堂的旁边大多都会有便利店，在那里可以买到大部分日用品和蔬菜水果。便利店可以使用饭费进行结算。学校中心的price center旁边有一家target超市，超市里的物品更为丰富，但是是能使用现金或刷卡支付。price center里有其他的连锁餐饮店，如熊猫外卖(panda express)和星巴克等。在这里可以试用现金或Triton cash消费。Triton cash是UCSD账户中权限高于饭费但低于现金的一种资金形式，还可以用于支付洗衣和烘干的费用。可以自己充值，每周10顿或每周15顿的餐饮计划里也会附带一些。剩余的金额可以在https://eacct-ucsd-sp.transactcampus.com/eAccounts/AccountSummary.aspx?menu=0这个网址中查看，这个网站不是很好找，我也是在机缘巧合之下才找到它。下图是price center。
 
