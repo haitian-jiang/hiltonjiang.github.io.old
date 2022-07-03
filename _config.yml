@@ -8,42 +8,44 @@ description         : "Hilton Jiang's personal website."
 markdown            : kramdown
 highlighter         : rouge
 # statement           : ""
-bgtext              : "我爱你冯亦童ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
+bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
 # You can specify the order shown in Archive window. 
 # Keep it null if you want to show items in alphabetic order.
 collection_order    : 
   [
-    "go",
-    "GNN",
-    "samples",
     "posts",
-    "portfolio",
+    "PL",
+    "rambling", 
+    "GNN",
+    # "samples",
+    # "portfolio",
   ]
 collections:
-  go:
+  posts:
+    output          : true
+  PL:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "Go PL"
+    alias           : "Languages"
   GNN:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  samples:
+  rambling:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  portfolio:
-    output          : true
-    permalink       : /:collection/:title/
-    order: # specify post order manually
-      - portfolio3.md
-      - portfolio2.md
-      - portfolio1.md
-  posts:
-    output          : true
+  # samples:
+  #   output          : true
+  #   permalink       : /:collection/:title/
+  #   sort_by         : date
+  #   order: # specify post order manually
+  #     - portfolio3.md
+  #     - portfolio2.md
+  #     - portfolio1.md
 
 # 3. Comment settings（disqus.com）
 # disqus_username     : akiritsu

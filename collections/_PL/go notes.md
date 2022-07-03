@@ -1,6 +1,6 @@
 ---
-title: Notes for Learning Go
-category: Go
+title: Learning Go
+category: PL
 date: 2022-1-8
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: Notes for Learning Cpp
+title: Learning C++
 category: PL
+date: 2022-6-10
 ---
 
 

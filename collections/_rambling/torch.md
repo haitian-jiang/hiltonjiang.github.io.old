@@ -1,6 +1,6 @@
 ---
 title: use torch on mac
-category: foobar
+category: rambling
 date: 2022-6-6
 ---
 
@@ -100,11 +100,8 @@ torch::Tensor tensor = torch::eye(3);
 #pragma cling load("libtorch_global_deps.dylib")
 #include <torch/torch.h>
 #include <iostream>
-//torch::Tensor tensor = torch::eye(3);
-//std::cout << tensor << std::endl;
 torch::TensorOptions opt = torch::TensorOptions().dtype(torch::kInt32).device(torch::kMPS);
 torch::Tensor t = torch::eye(3, opt);
 std::cout << t << std::endl;
-
 ```
 
