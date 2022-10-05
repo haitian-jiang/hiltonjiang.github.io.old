@@ -83,6 +83,7 @@ $ cling -std=c++14
 #pragma cling add_include_path("/opt/miniconda3/lib/python3.8/site-packages/torch/include")
 #pragma cling add_include_path("/opt/miniconda3/lib/python3.8/site-packages/torch/include/torch/csrc/api/include")
 #pragma cling add_library_path("/opt/miniconda3/lib/python3.8/site-packages/torch/lib")
+#pragma cling load("libc10")
 #pragma cling load("libtorch")
 #pragma cling load("libtorch_cpu")
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -95,6 +96,7 @@ torch::Tensor tensor = torch::eye(3);
 #pragma cling add_include_path("/opt/miniconda3/envs/spark/lib/python3.8/site-packages/torch/include")
 #pragma cling add_include_path("/opt/miniconda3/envs/spark/lib/python3.8/site-packages/torch/include/torch/csrc/api/include")
 #pragma cling add_library_path("/opt/miniconda3/envs/spark/lib/python3.8/site-packages/torch/lib")
+#pragma cling load("libc10")
 #pragma cling load("libtorch")
 #pragma cling load("libtorch_cpu")
 #pragma cling load("libtorch_global_deps.dylib")
