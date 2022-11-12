@@ -24,6 +24,21 @@ date: 2022-11-12
 
 
 
+### 激活 [参考：https://kms.netnr.eu.org/?id=windows-server-2022](https://kms.netnr.eu.org/?id=windows-server-2022)
+
+```powershell
+slmgr -skms skms.netnr.eu.org  # 设置服务
+slmgr -ipk <KEY>  # 安装密钥
+slmgr -ato  # 激活系统
+```
+
+服务：kms.cangshui.net; kms.03k.org; skms.netnr.eu.org
+`telnet skms.netnr.eu.org 1688` 测试服务是否可用
+
+[密钥：from微软：密钥管理服务 (KMS) 客户端激活和产品密钥](https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys)
+
+
+
 ### RDP
 
 `开启：` 服务器管理器→添加角色和功能→服务器角色→远程桌面服务→远程桌面会话主机&远程桌面授权。`勾选`
