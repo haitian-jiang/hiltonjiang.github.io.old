@@ -1,5 +1,5 @@
 ---
-title: use torch on mac
+title: Use Torch on Mac
 category: rambling
 date: 2022-6-6
 ---
