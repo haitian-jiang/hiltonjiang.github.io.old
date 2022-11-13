@@ -21,6 +21,8 @@ date: 2022-11-12
 - 打开win7图片查看器[参考：Windows 2019服务器使用自带“照片查看器”查看图片](https://www.cnitdog.com/windows-2019-photo-viewer.html)
 
   Win+R→regedit.msc→HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations→新建两项.jpg 和.png值都为字符串PhotoViewer.FileAssoc.Tiff
+  
+- `安装软件时卡在应用程序正在为首次使用做准备：` Win+R→gpedit.msc→管理模板→Windows组件→远程桌面服务→远程桌面会话主机→应用程序兼容性→关闭Windows Installer RDS兼容性。`改为已启用`
 
 
 
